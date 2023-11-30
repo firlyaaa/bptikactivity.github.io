@@ -1,0 +1,146 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans',sans-serif;
+    background-color: #265073;
+}
+
+.menuawal {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.menu a {
+    font-size: 2.5vw;
+    font-weight: 800;
+    float: left;
+    font-family: courier;
+    color: #265073;
+    margin-left: 1%;
+} 
+
+.menu {
+    float: center;
+
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 500%;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: #ffffff;
+    z-index: 1;
+    border-bottom:0.3vw solid #265073;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    margin-left: 10vw;
+}
+
+nav ul li {
+    float: right;
+}
+
+nav ul li a {
+    color: black;
+    font-weight: bold;
+    text-align: right;
+    padding: 1vw 1vw 1vw 1vw;
+    text-decoration: none;
+    font-size: 0.8vw;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5%;
+}
+
+.Home img {
+   width: 100%;
+   height: auto;
+   border: 4px solid;
+   background-size: cover;
+   position: relative;
+   margin-bottom: 30%;
+}
+
+
+.kolom {
+    margin-top: 5%;
+    margin-bottom: 50px;
+    padding: 50px;
+    text-align: center;
+}
+
+.kolom .deskripsi {
+    font-size: 2vw;
+    font-weight: bold;
+    font-family: 'comic sans-serif';
+    padding: 5px 10px 5px 10px;
+    color: #ffffff;
+}
+
+.kolom .amel {
+    font-family: 'comic sans-serif';
+    font-weight: reguler;
+    font-size: 1.5vw;
+    margin-bottom: 20px;
+    color: #ffffff;
+    width: 100%;
+    line-height: 10%;
+    margin-top: 5%;
+}
+
+.kolom .firly {
+    font-family: 'comic sans-serif';
+    font-weight: bold;
+    font-size: 1.5vw;
+    margin-bottom: 20px;
+    color: #ffffff;
+    width: 100%;
+    line-height: 10%;
+    margin-top: 5%;
+}
+
+.gambar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 5%;
+}
+.gambar-kecil img {
+     width: 30%;
+    height: 30%;
+    margin-right: 10px;
+    float: center;
+}
+
+.gambar-kecil {
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    width: 100%;
+    overflow: auto;
+}

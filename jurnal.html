@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jurnal</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <nav id="#jurnal">
+    <div class="menuawal">
+                <div class="menu"><a href='menu'>JURNAL PKL</a></div>
+                <div class="logo"></div>
+                </nav>
+                <table class="tabel-gambar">
+                    <tr>
+                        <td><img src="jurnal 1 f.jpg" alt="" onclick="openModal('jurnal 1 f.jpg')"></td>
+                        <td><img src="jurnal 2 f.jpg" alt="" onclick="openModal('jurnal 2 f.jpg')"></td>
+                        <td><img src="jurnal 3 f.jpg" alt="" onclick="openModal('jurnal 3 f.jpg')"></td>
+                    </tr>
+                    <tr>
+                        <td><img src="jurnal 4 f.jpg" alt="" onclick="openModal('jurnal 4 f.jpg')"></td>
+                        <td><img src="jurnal 5 f.jpg" alt="" onclick="openModal('jurnal 5 f.jpg')"></td>
+                        <td><img src="jurnal 6 f.jpg" alt="" onclick="openModal('jurnal 6 f.jpg')"></td>
+                        <!-- Tambahkan baris dan sel sesuai kebutuhan -->
+                    </tr>
+                </table>
+                <div id="myModal" class="modal">
+                    <span class="close" onclick="closeModal()">&times;</span>
+                    <img class="modal-content" id="modalImg">
+                </div>
+            </div>
+            <div class="tbl-blue"><a href="anggota.html#anggota">Kembali</a></div>
+    </div>
+    <script src="script.js">function openModal(imageSrc) {
+        document.getElementById('myModal').style.display = 'block';
+        document.getElementById('modalImg').src = imageSrc;
+    }
+    
+    function closeModal() {
+        document.getElementById('myModal').style.display = 'none';
+    }
+    
+    </script>
+    
+</body>
+</html>
